@@ -1,0 +1,11 @@
+.positionImagen {
+    background-image: url(../../App/img/fondo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 47px
+}
+.clasepotitionLOgo {
+    margin-top: -190px;
+}

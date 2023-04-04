@@ -1,0 +1,41 @@
+        .vertical {
+            transform: rotate(-90deg)
+        }
+        div.vertical {
+            height: auto;
+            width: auto;
+            writing-mode: tb-rl;
+            filter: flipv fliph;
+            transform: rotate(-90deg);
+        }
+        th.vertical {
+            width: 20px;
+        }
+        .div_btn {
+            display: flex;
+            background: red;
+        }
+        .searc_end {
+            display: flex;
+        }
+        swal2-styled.swal2-confirm {
+            border: 0;
+            border-radius: 0.25em;
+            background: initial;
+            background-color: #0c24b9;
+            color: #fff;
+            font-size: 1.5em;
+        }
+        .componetSearch {
+            cursor: pointer;
+        }
+        .componetSearch :hover {
+            background: #c6cacb;
+        }
+        .hide_search_elemt {
+            display: none;
+        }
+        .alin_global {
+            display: flex;
+            justify-content: end;
+        }
